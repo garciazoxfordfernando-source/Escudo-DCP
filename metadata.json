@@ -1,0 +1,6 @@
+{
+  "name": "Escudo",
+  "description": "Administrador de aislamiento y privacidad para Android con Perfil de Trabajo, Firewall VPN local, escáner de rastreadores, permisos y soporte opcional de Shizuku.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

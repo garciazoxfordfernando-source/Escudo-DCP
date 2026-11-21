@@ -1,0 +1,17 @@
+# Escudo ART Baseline Profile for fast cold startup and smooth LazyColumn scrolling
+HSPLcom/example/EscudoApp;->onCreate()V
+HSPLcom/example/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/example/MainActivity$onCreate$1;->invoke(Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/ui/EscudoRootKt;->EscudoRoot(Landroidx/compose/material3/windowsizeclass/WindowWidthSizeClass;Lcom/example/ThreatNotificationPayload;Lkotlin/jvm/functions/Function0;Lcom/example/ui/viewmodel/SecurityGateViewModel;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/example/ui/screens/AppsScreenKt;->AppsScreen(Landroidx/compose/material3/SnackbarHostState;Lkotlin/jvm/functions/Function0;Lcom/example/ui/viewmodel/AppsViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/ui/screens/AntivirusScreenKt;->AntivirusScreen(Landroidx/compose/material3/SnackbarHostState;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lcom/example/ui/viewmodel/AntivirusViewModel;Landroidx/compose/runtime/Composer;II)V
+HSPLcom/example/ui/screens/FirewallScreenKt;->FirewallScreen(Landroidx/compose/material3/SnackbarHostState;Lcom/example/ui/viewmodel/FirewallViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/ui/screens/TrackersScreenKt;->TrackersScreen(Landroidx/compose/material3/SnackbarHostState;Lcom/example/ui/viewmodel/TrackersViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/ui/screens/WorkProfileScreenKt;->WorkProfileScreen(Landroidx/compose/material3/SnackbarHostState;Lcom/example/ui/viewmodel/WorkProfileViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/ui/screens/SettingsScreenKt;->SettingsScreen(Landroidx/compose/material3/SnackbarHostState;Lcom/example/ui/viewmodel/SettingsViewModel;Landroidx/compose/runtime/Composer;I)V
+HSPLcom/example/data/local/av/AhoCorasickMatcher;->scanStream(Ljava/io/InputStream;[BLkotlin/jvm/functions/Function1;)V
+HSPLcom/example/data/local/av/OpenSourceAvEngine;->scanPackage(Ljava/lang/String;Lcom/example/domain/model/AvScanDepth;ZZZZLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/example/data/local/tracker/TrackerScanner;->scanApk(Ljava/lang/String;)Ljava/util/List;
+HSPLcom/example/service/EscudoVpnService;->onStartCommand(Landroid/content/Intent;II)I
+Landroidx/compose/foundation/lazy/LazyListState;
+Landroidx/compose/runtime/ComposerImpl;

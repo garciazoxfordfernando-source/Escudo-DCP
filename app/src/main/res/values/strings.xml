@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Escudo</string>
+    <string name="device_admin_label">Escudo — Perfil de Trabajo</string>
+    <string name="device_admin_description">Permite a Escudo aislar, clonar, congelar, ocultar y gestionar permisos de aplicaciones dentro del perfil de trabajo.</string>
+    <string name="vpn_service_label">Firewall Escudo (VPN local)</string>
+    <string name="vpn_channel_name">Firewall Local de Escudo</string>
+    <string name="vpn_channel_description">Notificación persistente mientras el firewall local por UID está activo.</string>
+    <string name="vpn_notification_title">Firewall Escudo activo</string>
+    <string name="vpn_notification_text">Filtrando tráfico local por UID sin servidores externos.</string>
+
+    <!-- Navigation -->
+    <string name="nav_apps">Apps</string>
+    <string name="nav_work_profile">Perfil</string>
+    <string name="nav_antivirus">Antivirus</string>
+    <string name="nav_firewall">Firewall</string>
+    <string name="nav_trackers">Rastreo</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- Biometric Lock -->
+    <string name="biometric_lock_title">Escudo bloqueado</string>
+    <string name="biometric_lock_subtitle">Verifica tu identidad para acceder al panel de aislamiento y reglas cifradas.</string>
+    <string name="biometric_unlock_button">Desbloquear con biometría</string>
+    <string name="biometric_prompt_title">Desbloquear Escudo</string>
+    <string name="biometric_prompt_subtitle">Usa tu huella, rostro o PIN del dispositivo</string>
+
+    <!-- Work Profile -->
+    <string name="work_profile_name">Escudo Aislado</string>
+    <string name="shortcut_launch_label">Abrir aislado</string>
+    <string name="shortcut_freeze_label">Congelar</string>
+</resources>
